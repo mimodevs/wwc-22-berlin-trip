@@ -1,4 +1,5 @@
 import * as React from "react"
+import "./layout.css"
 
 
 const IndexPage = () => {
@@ -10,7 +11,9 @@ const IndexPage = () => {
         </main>
 
         <body>
-          <h1>Test</h1>
+          <div className="outer-box">
+            <h1>Test</h1>
+          </div>
         </body>
         </div>
     </>
