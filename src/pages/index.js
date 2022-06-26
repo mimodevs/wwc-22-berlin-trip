@@ -11,7 +11,9 @@ const IndexPage = () => {
         </main>
 
         <body>
-          <h1>Test</h1>
+          <div className="outer-box">
+            <h1>Test</h1>
+          </div>
         </body>
         </div>
     </>
