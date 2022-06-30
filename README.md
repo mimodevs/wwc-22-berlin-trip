@@ -8,14 +8,19 @@
 </h1>
 
 ## 🚀 Quick start
+0.  **Clone this project.**
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # run in terminal
+    git clone https://github.com/mimodevs/wwc-22-berlin-trip.git
+    ```
+
+1.  **install all dependencies.**
+
+    ```shell
+    # run command
+    npm install
     ```
 
 2.  **Start developing.**
