@@ -20,6 +20,7 @@
 
     ```shell
     # run command
+    cd wwc-22-berlin-trip
     npm install
     ```
 
@@ -28,7 +29,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
+  
     npm run develop
     ```
 
