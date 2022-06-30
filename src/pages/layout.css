@@ -1,8 +1,49 @@
 * {
-    margin: auto;
+  margin: auto;
 }
 
 .outer-box {
-    background-color: green;
+  /* background-color: green; */
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
+body {
+  /* border: solid; */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  border: solid;
+}
+.timeline {
+  width: 400px;
+}
+.card {
+  display: flex;
+  border: solid;
+}
+.odd {
+  display: flex;
+  flex-direction: row-reverse;
+  border: solid;
+}
+
+.pin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(251, 48, 48, 0.974);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
