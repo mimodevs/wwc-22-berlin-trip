@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./layout.css";
+import { Navbar } from "./Navbar";
 
 const exp = [
   {
@@ -81,10 +82,12 @@ const IndexPage = () => {
         </main>
 
         <body>
+        <Navbar />        
           <header className="header">
             <h1 className="title">📌-line</h1>
           </header>
           <div className="outer-box">
+          
             <Timeline />
           </div>
         </body>

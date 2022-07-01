@@ -47,3 +47,59 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+/* NAVBAR */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar {
+  width: 100%;
+  background: #43464B;
+}
+
+.navi {
+  width: 35px;
+  background-color: white;
+  height: 5px;
+  margin: 5px;
+}
+
+.navButton {
+  width: 35px;
+}
+.navButton:hover .navi {
+  width: 35px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color:white;
+  transform: rotate(180deg);
+  transition: 1.5s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.navbar:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
