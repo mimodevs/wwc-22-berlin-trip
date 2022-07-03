@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 /* functional component navbar */
 export const Navbar = () => {
@@ -11,10 +12,10 @@ export const Navbar = () => {
                 <div className="navi"></div>                
             </div>
             <div className="dropdown-content">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Berlin</a>                
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/blog">Blog</Link>               
             </div>        
     </nav> 
     )
