@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-/* functional component navbar */
 export const Navbar = () => {
     return (
         <nav className="navbar">  
@@ -15,8 +14,8 @@ export const Navbar = () => {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/blog">Blog</Link>               
-            </div>        
+                <Link to="/berlin">Berlin Album</Link>  
+            </div>     
     </nav> 
     )
 }
