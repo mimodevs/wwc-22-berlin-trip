@@ -3,6 +3,10 @@ import "./layout.css";
 import { Navbar } from "./Navbar";
 import Video from "./Video";
 import Album from "./Album";
+import Intro from "./Intro";
+
+
+
 
 const exp = [
   {
@@ -80,17 +84,14 @@ const IndexPage = () => {
     <>
       <div>
         <main>
-          <title>📌-line</title>
+          {/* <title>📌-line</title> */}
         </main>
-
         <body>
           <Navbar />
-          <header className="header">
-            <h1 className="title">📌-line</h1>
-          </header>
-          <div className="outer-box">
-            <Timeline />
-          </div>
+          <Intro />
+            <div className="outer-box">
+              <Timeline />
+            </div>
           <Album />
           <Video />
         </body>
