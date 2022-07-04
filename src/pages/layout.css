@@ -1,16 +1,18 @@
 * {
-  margin: auto;
+ 
+  box-sizing: border-box;
 }
 
 .outer-box {
   /* background-color: green; */
-  font-family: sans-serif;
+  /* font-family: sans-serif;
   text-align: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 20px; */
+  background: #eee;
 }
 
 body {
@@ -24,28 +26,125 @@ header {
   width: 100%;
   border: solid;
 }
+
+
 .timeline {
-  width: 400px;
-}
-.card {
-  display: flex;
-  border: solid;
-}
-.odd {
-  display: flex;
-  flex-direction: row-reverse;
-  border: solid;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.pin {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgba(251, 48, 48, 0.974);
-  color: white;
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #C5CAE9;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  
+}
+
+
+
+figcaption{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 4px;
+}
+
+.num{
+  margin: 0;
+  background-color: #757575;
+  font-size: x-large;
+  border-radius: 0 0 50% 50%;
+  padding: 2px 10px;
+}
+
+
+.container::after {
+  content: ' ';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #3F51B5;
+  border: 4px solid #3F51B5;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+ 
+}
+
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+
+
+
+.right::after {
+  left: -16px;
+}
+
+.card {
+  padding: 0 2px 5px 2px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 8px 8px 4px #757575;
+
+}
+
+
+@media screen and (max-width: 700px) {
+ 
+  .timeline::after {
+  left: 31px;
+  }
+  
+
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+ 
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+
+  .right {
+  left: 0%;
+  }
 }
 
 
