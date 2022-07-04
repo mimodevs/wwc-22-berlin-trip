@@ -46,17 +46,33 @@ const Pin = (props) => {
 };
 
 const Card = (props) => {
-  const stylingClass = props.order_id % 2 !== 0 ? "odd" : "card";
-
+  const stylingClass = props.order_id % 2 !== 0 ? "left" : "right";
+ 
   return (
-    <div className={stylingClass}>
-      <Pin value={props.order_id} />
-      <figure>
-        <img src={props.img} width="300px" height="200px" alt={props.caption} />
+    
+        <div className={"container "+stylingClass}>
+        
+              <figure className="card">
 
-        <figcaption>{props.caption} </figcaption>
-      </figure>
-    </div>
+                  <figcaption>
+
+                  <p className="num">{props.order_id}</p>
+                  {props.caption}
+                    
+                  </figcaption>
+
+                  <img src={props.img} width="100%" height="100%" alt={props.caption} />
+                        
+                  <p className="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique...</p>
+                    
+              </figure>
+          
+        </div>
+       
+        
   );
 };
 
@@ -78,7 +94,9 @@ const Timeline = () => {
 const IndexPage = () => {
   return (
     <>
+    
       <div>
+        
         <main>
           <title>📌-line</title>
         </main>
