@@ -1,10 +1,10 @@
 import React from "react";
 
 
-export default function HelloWord() {
+export default function HelloWorld() {
     return (
         <div>
-            <h1>Hello Word</h1>
+            <h1>Hello Xbal</h1>
         </div>
     )
 }
