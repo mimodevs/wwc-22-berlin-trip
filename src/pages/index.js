@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./layout.css";
+import "./layout2.css";
 import { Navbar } from "./Navbar";
 import Video from "./Video";
 import Album from "./Album";
@@ -98,9 +99,7 @@ const Timeline = () => {
 const IndexPage = () => {
   return (
     <>
-    
       <div>
-        
         <main>
           {/* <title>📌-line</title> */}
         </main>
