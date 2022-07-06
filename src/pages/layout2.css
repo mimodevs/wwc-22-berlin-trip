@@ -1,4 +1,4 @@
-ul li {
+/* ul li {
   position: relative;
 	padding-bottom: 10px;
 }
@@ -17,4 +17,4 @@ ul li:before{
    top: calc(50% - 4px);
    left: -20px;
    transform: translateY(-50%) rotate(-45deg);
-}
+} */

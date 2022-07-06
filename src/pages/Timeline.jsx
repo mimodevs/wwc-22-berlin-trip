@@ -1,23 +1,11 @@
 import * as React from "react";
-import "./layout.css";
-import "./layout2.css";
-import { Navbar } from "./Navbar";
-import Video from "./Video";
-import Album from "./Album";
-import Intro from "./Intro";
-// import Image from "./wwc22-logo.png"
-
-
-
 
 const exp = [
   {
     caption: "dinner",
     desc: "Basil cooked for the the tribe",
     photo_url:
-      "./wwc22-logo.png",
-      // "./src/images/icon.png",
-      // Image,
+      "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1349&q=80",
     order_id: 1,
   },
   {
@@ -99,25 +87,4 @@ const Timeline = () => {
   );
 };
 
-const IndexPage = () => {
-  return (
-    <>
-      <div>
-        <main>
-          {/* <title>📌-line</title> */}
-        </main>
-        <body>
-          <Navbar />
-          <Intro />
-            <div className="outer-box">
-              <Timeline />
-            </div>
-          <Album />
-          <Video />
-        </body>
-      </div>
-    </>
-  );
-};
 
-export default IndexPage;
