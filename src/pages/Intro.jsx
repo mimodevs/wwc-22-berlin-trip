@@ -16,8 +16,8 @@ export default function IntroText() {
                     </h4></li>
                     <li><h4>the impact caused also Mimos colliding with:
                         <ul>
-                    <li> > each other some already known from the screen but some completely new from other cohorts.</li>
-                    <li> > with members from different other universes, who might swallow the Mimos in the future. In the end all Mimos expanded in size not only from Basil's wonderful 'sous vide' dinner and Syrian dishes but also in knowledge, experiences and new friends.</li>
+                    <li>each other some already known from the screen but some completely new from other cohorts.</li>
+                    <li>with members from different other universes, who might swallow the Mimos in the future. In the end all Mimos expanded in size not only from Basil's wonderful 'sous vide' dinner and Syrian dishes but also in knowledge, experiences and new friends.</li>
                     </ul></h4></li>
                 </ul> 
             </div>

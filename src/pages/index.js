@@ -61,23 +61,15 @@ const Card = (props) => {
  
   return (
     
-        <div className={"container "+stylingClass}>
-        
+        <div className={"container "+stylingClass}>        
               <figure className="card">
-
                   <figcaption>
-
                   <p className="num">{props.order_id}</p>
-                  {props.caption}
-                    
+                  {props.caption}                    
                   </figcaption>
-
                   <img src={props.img} width="100%" height="100%" alt={props.caption} />
-                        
                   <p className="details">{props.desc}</p>
-                    
               </figure>
-          
         </div>
        
         

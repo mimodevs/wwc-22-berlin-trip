@@ -14,9 +14,10 @@
   background: #eee;
 }
 
-body {
-  /* border: solid; */
+.subtitle {
+  margin-top: 250px;
 }
+
 
 .header {
   display: flex;
@@ -154,7 +155,7 @@ figcaption{
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-center;
   border-radius: 1%;
 }
@@ -168,6 +169,26 @@ nav {
   background-color: black;
   margin-bottom: 25px;
 }
+
+/* 
+.pingoBox {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+
+.pingo {
+color: white;
+font-size: 40px;
+font-weight: bold;
+margin-left: 10px;
+width: 100%;
+background-color: yellow;
+text-align: center;
+}
+ */
+
 
 .logo {
   margin: 5px;
@@ -228,3 +249,4 @@ nav {
   transform: rotate(180deg);
   transition: 1.5s;
 }
+
