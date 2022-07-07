@@ -2,13 +2,13 @@ import React from "react";
 
 const Album = () => {
   return (
-    <div>
+    <div className="cssAlbum">
       <a
         href="https://www.google.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        External CSS Album link
+        <button className="btnCss">External CSS Album link</button>
       </a>
     </div>
   );
