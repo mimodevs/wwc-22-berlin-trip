@@ -6,14 +6,16 @@ import Video from "./Video";
 import Album from "./Album";
 import Intro from "./Intro";
 // import Image from "./wwc22-logo.png"
+import { Link } from 'gatsby';
 
 
 
-
+const link = <a href="https://en.wikipedia.org/wiki/Fawlty_Towers"> Fawlty Towers</a>;
+console.log(link);
 const exp = [
   {
-    caption: "dinner",
-    desc: "Basil cooked for the the tribe",
+    caption: "Mimos impacting the WeAreDevelopers World Congress",
+    desc: "This was the planet the Mimos hit. Fortunately it was not only interesting by itself but it was also hosted by the very vibrant and flashy city of Berlin. So we had more than enough stuff to see and do on our idle time like for instance experiencing Tiesto DJ in Kraftwerk.",
     photo_url:
       "./wwc22-logo.png",
       // "./src/images/icon.png",
@@ -21,10 +23,10 @@ const exp = [
     order_id: 1,
   },
   {
-    caption: "Irish Pub",
-    desc: "Irish Pub",
+    caption: "The first asteroids",
+    desc: `Here we have the originators of the Mimo asteroid cloud hitting on the WAD planet.  Basil -the convincing rock- kicked off the first interplanetary flight. Please don't confound our Basil with the one for ${<Link to="www.google.de"/>} although our one is also funny. Our very young 22 year old instructor Abed was the second one to fire up rockets.`,
     photo_url:
-      "https://images.unsplash.com/photo-1656577865296-67f388c6ed0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "./originators.jpeg",
     order_id: 2,
   },
   {
@@ -71,10 +73,7 @@ const Card = (props) => {
 
                   <img src={props.img} width="100%" height="100%" alt={props.caption} />
                         
-                  <p className="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                    optio, eaque rerum! Provident similique...</p>
+                  <p className="details">{props.desc}</p>
                     
               </figure>
           
@@ -92,6 +91,7 @@ const Timeline = () => {
           img={item.photo_url}
           caption={item.caption}
           order_id={item.order_id}
+          desc={item.desc}
           key={index}
         />
       ))}
