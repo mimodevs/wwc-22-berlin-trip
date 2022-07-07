@@ -31,17 +31,17 @@ const exp = [
     order_id: 2,
   },
   {
-    caption: "event kick off",
-    desc: "german speaking/accent github copilot",
+    caption: "Basil Our Cook",
+    desc: "Basil was not only the originator of this event but offered to be our cook for the first evening. And no, we didn't have common Hamburgers with fries and ketchup. No, we had something very spectacular. In this video Basil explains the story of our first dish: believe it or not we had frozen salmon with olive oil and it was delicious and refreshing to be honest.",
     photo_url:
-      "https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1349&q=80",
+      "./BasilCookSnapshot.png",
     order_id: 3,
   },
   {
-    caption: "met John Romero",
-    desc: "german speaking/accent github copilot",
+    caption: "And now the main dish",
+    desc: "But the frozen fish wasn't enough jaw-dropping stuff: we also had the opportunity to taste this wonderful 'sous vide' meat. We were all flabbergasted to learn that Basil brought all of this equipment to Berlin to cook this meat for all of us just for that first evening. Thank you very much for that Basil!",
     photo_url:
-      "https://images.unsplash.com/photo-1656577865296-67f388c6ed0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "./sousVideMeat.jpeg",
     order_id: 4,
   },
 ];
