@@ -10,6 +10,7 @@ import { Link } from 'gatsby';
 
 
 
+
 const link = <a href="https://en.wikipedia.org/wiki/Fawlty_Towers"> Fawlty Towers</a>;
 console.log(link);
 const exp = [
@@ -24,7 +25,7 @@ const exp = [
   },
   {
     caption: "The first asteroids",
-    desc: `Here we have the originators of the Mimo asteroid cloud hitting on the WAD planet.  Basil -the convincing rock- kicked off the first interplanetary flight. Please don't confound our Basil with the one for ${<Link to="www.google.de"/>} although our one is also funny. Our very young 22 year old instructor Abed was the second one to fire up rockets.`,
+    desc: `Here we have the originators of the Mimo asteroid cloud hitting on the WAD planet. Basil -the convincing rock- kicked off the first interplanetary flight. Please don't confound our Basil with the one from Fawlty Towers although our one is also funny. Our very young 22 year old instructor Abed was the second one to fire up rockets.`,
     photo_url:
       "./originators.jpeg",
     order_id: 2,
