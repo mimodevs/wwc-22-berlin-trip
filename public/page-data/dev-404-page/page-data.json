@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/404.html"},{"path":"/Album/"},{"path":"/Intro/"},{"path":"/Navbar/"},{"path":"/Timeline/"},{"path":"/Video/"},{"path":"/about/"},{"path":"/"}]}},"pageContext":{}},"staticQueryHashes":[]}
+=======
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/404.html"},{"path":"/about/"},{"path":"/Album/"},{"path":"/"},{"path":"/Intro/"},{"path":"/Navbar/"},{"path":"/Video/"}]}},"pageContext":{}},"staticQueryHashes":[]}
+>>>>>>> 413c43c364e288c252447dba940dd7069c6eaec0
