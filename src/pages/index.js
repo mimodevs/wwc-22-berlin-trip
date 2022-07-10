@@ -105,14 +105,16 @@ const IndexPage = () => {
     <>
       <div>
         <main>
-          {/* <title>📌-line</title> */}
+          
         </main>
         <body>
           <Navbar />
+          
           <Intro />
-            <div className="outer-box">
-              <Timeline />
-            </div>
+          {<hr></hr>}
+           
+          <Timeline />
+            
           <Album />
           <Video />
         </body>

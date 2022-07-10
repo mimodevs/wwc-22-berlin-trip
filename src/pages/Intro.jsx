@@ -4,8 +4,9 @@ import React from "react";
 export default function IntroText() {
     return (
         <header className="header">
-            <h1 className="title">📌-line</h1><br/>
+            <img src="Logo-2__1_-removebg-preview.png" width="700px"/>
              <div className="subtitle">
+             <hr></hr>
                 <h1>Mimos colliding with WeAreDevs Planet in Berlin</h1>
                 <h3>Some developing asteroids called Mimos have been reported to have collided with the well established World Congress of WeAreDevelopers.
                     The damages caused by the impact have been divers:</h3>
