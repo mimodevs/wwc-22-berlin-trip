@@ -104,6 +104,9 @@ const IndexPage = () => {
   return (
     <>
       <div>
+        <head>
+        <title>PinGo</title>
+        </head>
         <main>
           
         </main>
