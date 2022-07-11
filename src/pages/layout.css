@@ -154,7 +154,7 @@ figcaption{
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-center;
   border-radius: 1%;
 }
