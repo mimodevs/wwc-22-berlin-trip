@@ -50,6 +50,13 @@ const exp = [
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657641259/PinGo/image-cohort4-cohort5-dinner-first-evening-berlin.jpg",
     order_id: 5,
   },
+  {
+    caption: "First Day at WAD World Congress and First speech from GitHub CEO Thomas Dohmke",
+    desc: "The first day of the congress was kicked off by the CEO of Github: a bloke with a very strong German accent. Later on we learned that he was originally from Berlin. Thomas Dohmke explained the newest features of Github: one collaborative cloud-based Github Codespaces and AI aided Github Copilot.",
+    photo_url:
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649610/PinGo/Image-weAreDevs-Berlin-2022-Thomas-Dohmke-Github-CEO.jpg",
+    order_id: 6,
+  },
 ];
 const imgUrl =
   "https://images.unsplash.com/photo-1655821888788-6107699e1700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80";
