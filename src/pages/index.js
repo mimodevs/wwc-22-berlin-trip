@@ -18,7 +18,7 @@ const exp = [
     caption: "Mimos impacting the WeAreDevelopers World Congress",
     desc: "This was the planet the Mimos hit. Fortunately it was not only interesting by itself but it was also hosted by the very vibrant and flashy city of Berlin. So we had more than enough stuff to see and do on our idle time like for instance experiencing Tiesto DJ in Kraftwerk.",
     photo_url:
-      "./wwc22-logo.png",
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657644448/PinGo/wad-world-congress-2022-mimo.png",
       // "./src/images/icon.png",
       // Image,
     order_id: 1,
@@ -27,28 +27,28 @@ const exp = [
     caption: "The first asteroids",
     desc: `Here we have the originators of the Mimo asteroid cloud hitting on the WAD planet. Basil -the convincing rock- kicked off the first interplanetary flight. Please don't confound our Basil with the one from Fawlty Towers although our one is also funny. Our very young 22 year old instructor Abed was the second one to fire up rockets.`,
     photo_url:
-      "./originators.jpeg",
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657644409/PinGo/abed-basil-berlin-first-day-mimo.jpg",
     order_id: 2,
   },
   {
     caption: "Basil Our Cook",
     desc: "Basil was not only the originator of this event but offered to be our cook for the first evening. And no, we didn't have common Hamburgers with fries and ketchup. No, we had something very spectacular. In this video Basil explains the story of our first dish: believe it or not we had frozen salmon with olive oil and it was delicious and refreshing to be honest.",
     photo_url:
-      "./BasilCookSnapshot.png",
+      "https://res.cloudinary.com/pingo-mimo/video/upload/v1657643713/PinGo/Dinner-Basil-Mimo-Berlin-firstdish.mov.mov",
     order_id: 3,
   },
   {
     caption: "And now the main dish",
     desc: "But the frozen fish wasn't enough jaw-dropping stuff: we also had the opportunity to taste this wonderful 'sous vide' meat. We were all flabbergasted to learn that Basil brought all of this equipment to Berlin to cook this meat for all of us just for that first evening. Thank you very much for that Basil!",
     photo_url:
-      "./sousVideMeat.jpeg",
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657644247/PinGo/sousVide-Meat-Mimo-Basil-Berlin.jpg",
     order_id: 4,
   },
   {
     caption: "And now the main dish",
     desc: "But the frozen fish wasn't enough jaw-dropping stuff: we also had the opportunity to taste this wonderful 'sous vide' meat. We were all flabbergasted to learn that Basil brought all of this equipment to Berlin to cook this meat for all of us just for that first evening. Thank you very much for that Basil!",
     photo_url:
-      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657641259/PinGo/IMG_20220613_203402_temeay.jpg",
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657641259/PinGo/image-cohort4-cohort5-dinner-first-evening-berlin.jpg",
     order_id: 5,
   },
 ];
