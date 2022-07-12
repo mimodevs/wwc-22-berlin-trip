@@ -44,6 +44,13 @@ const exp = [
       "./sousVideMeat.jpeg",
     order_id: 4,
   },
+  {
+    caption: "And now the main dish",
+    desc: "But the frozen fish wasn't enough jaw-dropping stuff: we also had the opportunity to taste this wonderful 'sous vide' meat. We were all flabbergasted to learn that Basil brought all of this equipment to Berlin to cook this meat for all of us just for that first evening. Thank you very much for that Basil!",
+    photo_url:
+      "./sousVideMeat.jpeg",
+    order_id: 5,
+  },
 ];
 const imgUrl =
   "https://images.unsplash.com/photo-1655821888788-6107699e1700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80";
