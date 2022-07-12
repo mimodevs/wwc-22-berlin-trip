@@ -33,8 +33,7 @@ const exp = [
   {
     caption: "Basil Our Cook",
     desc: "Basil was not only the originator of this event but offered to be our cook for the first evening. And no, we didn't have common Hamburgers with fries and ketchup. No, we had something very spectacular. In this video Basil explains the story of our first dish: believe it or not we had frozen salmon with olive oil and it was delicious and refreshing to be honest.",
-    photo_url:
-     {Video videoSrcURL="https://res.cloudinary.com/pingo-mimo/video/upload/v1657643713/PinGo/Dinner-Basil-Mimo-Berlin-firstdish.mov" videoTitle="First_Dish"},
+    photo_url: "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649098/PinGo/Basil-Berlin-FirstDish-WAD-Congress-2022.png",
     order_id: 3,
   },
   {
