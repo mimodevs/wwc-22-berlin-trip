@@ -4,7 +4,7 @@ import React from "react";
 export default function IntroText() {
     return (
         <header className="header">
-            <img src="Logo-2__1_-removebg-preview.png" width="700px"/>
+            <img src="Logo-2__1_-removebg-preview.png" width="600px"/>
              <div className="subtitle">
              <hr></hr>
                 <h1>Mimos colliding with WeAreDevs Planet in Berlin</h1>
