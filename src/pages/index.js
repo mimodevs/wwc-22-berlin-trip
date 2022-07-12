@@ -44,8 +44,8 @@ const exp = [
     order_id: 4,
   },
   {
-    caption: "And now the main dish",
-    desc: "But the frozen fish wasn't enough jaw-dropping stuff: we also had the opportunity to taste this wonderful 'sous vide' meat. We were all flabbergasted to learn that Basil brought all of this equipment to Berlin to cook this meat for all of us just for that first evening. Thank you very much for that Basil!",
+    caption: "First collission",
+    desc: "And here we have almost all the asteroids sitting at one table shortly after impacting in Berlin . Abed! please buy yourself an iphone for the next event! It shoots better pictures.",
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657641259/PinGo/image-cohort4-cohort5-dinner-first-evening-berlin.jpg",
     order_id: 5,
