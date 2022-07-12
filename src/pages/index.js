@@ -57,6 +57,13 @@ const exp = [
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649610/PinGo/Image-weAreDevs-Berlin-2022-Thomas-Dohmke-Github-CEO.jpg",
     order_id: 6,
   },
+  {
+    caption: "Another fantastic speech from Keith Richards @ WAD World Congress ",
+    desc: "This guy (Keith Richards) told us a bit about the Design Principles. One of his most famous books: DOM Scripting costs almost 60 Euros. This is obviously a collector's price because the book is from 2010. The most remarkable sentence of his speech was: \"JavaScript should only do what only JavaScript can do\".",
+    photo_url:
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649610/PinGo/Image-weAreDevs-Berlin-2022-Thomas-Dohmke-Github-CEO.jpg",
+    order_id: 7,
+  },
 ];
 const imgUrl =
   "https://images.unsplash.com/photo-1655821888788-6107699e1700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80";
