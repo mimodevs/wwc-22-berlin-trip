@@ -61,7 +61,7 @@ const exp = [
     caption: "Another fantastic speech from Keith Richards @ WAD World Congress ",
     desc: "This guy (Keith Richards) told us a bit about the Design Principles. One of his most famous books: DOM Scripting costs almost 60 Euros. This is obviously a collector's price because the book is from 2010. The most remarkable sentence of his speech was: \"JavaScript should only do what only JavaScript can do\".",
     photo_url:
-      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649610/PinGo/Image-weAreDevs-Berlin-2022-Thomas-Dohmke-Github-CEO.jpg",
+      "https://res.cloudinary.com/pingo-mimo/image/upload/v1657650275/PinGo/Keith-Richards-Design-Principles-JavaScript-Berlin-WAD22.jpg",
     order_id: 7,
   },
 ];
