@@ -70,36 +70,21 @@ const exp = [
     type: "image",
   },
 ];
-const imgUrl =
-  "https://images.unsplash.com/photo-1655821888788-6107699e1700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80";
-
 
 const Card = (props) => {
   const stylingClass = props.order_id % 2 !== 0 ? "left" : "right";
  
-  return (
-    
+  return ( 
         <div className={"container "+stylingClass}>
-        
               <figure className="card">
-
                   <figcaption>
-
                   <p className="num">{props.order_id}</p>
-                  {props.caption}
-                    
+                  <p className="title">{props.caption}</p>         
                   </figcaption>
-
                   <img src={props.img} width="100%" height="100%" alt={props.caption} />
-                        
                   <p className="details">{props.desc}</p>
-                    
               </figure>
-                 
-          
-        </div>
-       
-        
+        </div>  
   );
 };
 
