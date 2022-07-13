@@ -111,17 +111,14 @@ const IndexPage = () => {
         <head>
         <title>PinGo</title>
         </head>
-        <main>
+        {/* <main>
           
-        </main>
+        </main> */}
         <body>
           <Navbar />
-          
           <Intro />
           {<hr></hr>}
-           
           <Timeline />
-            
           <Album />
           <Video />
         </body>
