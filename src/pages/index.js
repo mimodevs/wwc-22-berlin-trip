@@ -117,7 +117,6 @@ const Card = (props) => {
 const Timeline = () => {
   return (
     <div className="timeline">
-       <Video  videoTitle="Basil explaining the first dish" />
       {exp.map((item, index) => (
         <Card
           img={item.photo_url}
