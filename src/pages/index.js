@@ -22,6 +22,7 @@ const exp = [
       // "./src/images/icon.png",
       // Image,
     order_id: 1,
+    type: "image",
   },
   {
     caption: "The first asteroids",
@@ -29,12 +30,15 @@ const exp = [
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657644409/PinGo/abed-basil-berlin-first-day-mimo.jpg",
     order_id: 2,
+    type: "image",
   },
   {
     caption: "Basil Our Cook",
     desc: "Basil was not only the originator of this event but offered to be our cook for the first evening. And no, we didn't have common Hamburgers with fries and ketchup. No, we had something very spectacular. In this video Basil explains the story of our first dish: believe it or not we had frozen salmon with olive oil and it was delicious and refreshing to be honest.",
-    photo_url: "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649098/PinGo/Basil-Berlin-FirstDish-WAD-Congress-2022.png",
+    photo_url: <Video />,
+    //"https://res.cloudinary.com/pingo-mimo/image/upload/v1657649098/PinGo/Basil-Berlin-FirstDish-WAD-Congress-2022.png",
     order_id: 3,
+    type: "video",
   },
   {
     caption: "And now the main dish",
@@ -42,6 +46,7 @@ const exp = [
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657644247/PinGo/sousVide-Meat-Mimo-Basil-Berlin.jpg",
     order_id: 4,
+    type: "image",
   },
   {
     caption: "First collission",
@@ -49,6 +54,7 @@ const exp = [
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657641259/PinGo/image-cohort4-cohort5-dinner-first-evening-berlin.jpg",
     order_id: 5,
+    type: "image",
   },
   {
     caption: "First Day at WAD World Congress and First speech from GitHub CEO Thomas Dohmke",
@@ -56,6 +62,7 @@ const exp = [
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657649610/PinGo/Image-weAreDevs-Berlin-2022-Thomas-Dohmke-Github-CEO.jpg",
     order_id: 6,
+    type: "image",
   },
   {
     caption: "Another fantastic speech from Keith Richards @ WAD World Congress ",
@@ -63,18 +70,20 @@ const exp = [
     photo_url:
       "https://res.cloudinary.com/pingo-mimo/image/upload/v1657650275/PinGo/Keith-Richards-Design-Principles-JavaScript-Berlin-WAD22.jpg",
     order_id: 7,
+    type: "image",
   },
 ];
 const imgUrl =
   "https://images.unsplash.com/photo-1655821888788-6107699e1700?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80";
 
-const Pin = (props) => {
-  return (
-    <div className="pin">
-      <div className="pin-content"> {props.value}</div>
-    </div>
-  );
-};
+// const Pin = (props) => {
+//   return (
+//     <div className="pin">
+//       <div className="pin-content"> {props.value}</div>
+     
+//     </div>
+//   );
+// };
 
 const Card = (props) => {
   const stylingClass = props.order_id % 2 !== 0 ? "left" : "right";
@@ -97,6 +106,7 @@ const Card = (props) => {
                   <p className="details">{props.desc}</p>
                     
               </figure>
+                 
           
         </div>
        
@@ -107,6 +117,7 @@ const Card = (props) => {
 const Timeline = () => {
   return (
     <div className="timeline">
+       <Video  videoTitle="Basil explaining the first dish" />
       {exp.map((item, index) => (
         <Card
           img={item.photo_url}
