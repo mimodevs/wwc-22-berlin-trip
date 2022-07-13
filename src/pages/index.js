@@ -117,7 +117,6 @@ const IndexPage = () => {
           {<hr></hr>}
           <Timeline />
           <Album />
-          <Video />
         </body>
       </div>
     </>
