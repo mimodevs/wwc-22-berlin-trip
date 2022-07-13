@@ -10,9 +10,6 @@ import { Link } from 'gatsby';
 
 
 
-
-const link = <a href="https://en.wikipedia.org/wiki/Fawlty_Towers"> Fawlty Towers</a>;
-console.log(link);
 const exp = [
   {
     caption: "Mimos impacting the WeAreDevelopers World Congress",
